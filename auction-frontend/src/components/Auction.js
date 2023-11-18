@@ -242,7 +242,7 @@ const auctionContractAbi = [
 
 const auctionContract = (provider) => {
   return new ethers.Contract(
-    "0xF8713B3cB0f6D7080947140c49029B0B722bf223", //auctionContractAddress
+    "0xe546fc4eA7110D7cE68C53cdA52B31b15DB2b294", //auctionContractAddress
     auctionContractAbi, //auctionContractABI
     provider
   );

@@ -41,7 +41,7 @@ contract Auction{
         nftaddress = _nft;
         nftOwner = payable(msg.sender);
         setPrice = price;
-        timeFrame = uint64(block.timestamp) + (duration * 1 minutes);
+        timeFrame = uint64(block.timestamp) + (duration * 1 days);
     }
 
     ///@dev function that enables the nftOwner to start the auction

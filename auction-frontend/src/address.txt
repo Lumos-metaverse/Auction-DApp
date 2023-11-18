@@ -1,2 +1,2 @@
-LumosNFT contract is deployed to 0xA810F43Ab0525b445786A646bD23FBaf261D77F1
-Auction contract is deployed to 0xF8713B3cB0f6D7080947140c49029B0B722bf223
+LumosNFT contract is deployed to 0x5eb8D2321F7bF11EC27A2064411EDc4D8117Aa91
+Auction contract is deployed to 0xe546fc4eA7110D7cE68C53cdA52B31b15DB2b294

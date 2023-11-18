@@ -13,7 +13,7 @@ async function main() {
   //DEPLOYING AUCTION CONTRACT
   const startPrice = ethers.parseEther("0.00005");
   
-  const endTime = 10;  //10 minutes
+  const endTime = 10;  //10 days
 
   const Auction = await ethers.deployContract("Auction", [LumosNFT.target, endTime, startPrice]);
   await Auction.waitForDeployment();
