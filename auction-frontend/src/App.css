@@ -1,0 +1,92 @@
+/* General styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.connect-wallet-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.connect-wallet-button:hover {
+  background-color: #45a049;
+}
+
+/* Auction section styling */
+.auction-section {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.bid-section,
+.cancel-section,
+.withdraw-section {
+  margin: 20px 0;
+}
+
+/* Input and Button styling */
+input[type="text"], input[type="number"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80%;
+}
+
+button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #007B9E;
+}
+
+/* Message styling */
+.error-message, .success-message {
+  color: #d8000c;
+  background-color: #ffbaba;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.success-message {
+  color: #4F8A10;
+  background-color: #DFF2BF;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
